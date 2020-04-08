@@ -5,7 +5,7 @@ bootConfigURL: https://github.com/RickyRajinder/environment-hybrid-k8s-dev.git
 cluster:
   clusterName: hybrid-k8s
   devEnvApprovers:
-  - rickys
+  - RickyRajinder
   environmentGitOwner: RickyRajinder
   gitKind: github
   gitName: github
