@@ -46,6 +46,21 @@ spec:
   hostPath:
     path: "/mnt/dockerregdata"
 
+---
+kind: PersistentVolume
+apiVersion: v1
+metadata:
+  name: jenkins
+  labels:
+    type: local
+spec:
+  storageClassName: local-storage
+  capacity:
+    storage: 10Gi
+  accessModes:
+    - ReadWriteOnce
+  hostPath:
+    path: "/mnt/jenkinsdata"
 
 ---
 kind: StorageClass
