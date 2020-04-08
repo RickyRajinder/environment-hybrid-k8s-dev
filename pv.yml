@@ -29,6 +29,23 @@ spec:
     - ReadWriteOnce
   hostPath:
     path: "/mnt/nexusdata"
+---
+
+kind: PersistentVolume
+apiVersion: v1
+metadata:
+  name: jenkins-docker-reg
+  labels:
+    type: local
+spec:
+  storageClassName: local-storage
+  capacity:
+    storage: 10Gi
+  accessModes:
+    - ReadWriteOnce
+  hostPath:
+    path: "/mnt/dockerregdata"
+
 
 ---
 kind: StorageClass
