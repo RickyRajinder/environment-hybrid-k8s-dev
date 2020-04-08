@@ -1,0 +1,15 @@
+adminUser:
+  password: local:hybrid-k8s/adminUser:password
+  username: ricky
+docker:
+  email: ricky.singh@sjsu.edu
+  password: local:hybrid-k8s/docker:password
+  url: https://index.docker.io/v1/
+  username: rickywraith
+enableDocker: true
+pipelineUser:
+  email: ricky.singh@sjsu.edu
+  token: local:hybrid-k8s/pipelineUser:token
+  username: RickyRajinder
+prow:
+  hmacToken: local:hybrid-k8s/prow:hmacToken

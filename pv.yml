@@ -1,0 +1,45 @@
+kind: PersistentVolume
+apiVersion: v1
+metadata:
+  name: jenkins-chartmuseum
+  labels:
+    type: local
+spec:
+  storageClassName: local-storage
+  capacity:
+    storage: 10Gi
+  accessModes:
+    - ReadWriteOnce
+  hostPath:
+    path: "/mnt/chartmuseumdata"
+ 
+---
+
+kind: PersistentVolume
+apiVersion: v1
+metadata:
+  name: jenkins-nexus
+  labels:
+    type: local
+spec:
+  storageClassName: local-storage
+  capacity:
+    storage: 10Gi
+  accessModes:
+    - ReadWriteOnce
+  hostPath:
+    path: "/mnt/nexusdata"
+
+---
+kind: StorageClass
+apiVersion: storage.k8s.io/v1
+metadata:
+  name: local-storage
+  annotations:
+          storageclass.kubernetes.io/is-default-class: "true"
+provisioner: kubernetes.io/no-provisioner
+volumeBindingMode: WaitForFirstConsumer
+parameters:
+  pool: default
+  description: Kubernetes volume
+  fsType: ext4
