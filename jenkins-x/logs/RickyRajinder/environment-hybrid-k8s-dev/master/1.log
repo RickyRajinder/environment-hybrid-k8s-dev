@@ -1,26 +1,26 @@
 
-Showing logs for build [32mrickyrajinder-environment-hybri-55jwh-1-zq5nn[0m stage [32mrelease[0m and container [32mstep-credential-initializer-4crhs[0m
-{"level":"warn","ts":1586468429.607723,"logger":"fallback-logger","caller":"logging/config.go:69","msg":"Fetch GitHub commit ID from kodata failed: \"ref: refs/heads/0.8.0-**-support-backwards-incompats\" is not a valid GitHub commit ID"}
-{"level":"info","ts":1586468429.6234882,"logger":"fallback-logger","caller":"creds-init/main.go:40","msg":"Credentials initialized."}
+Showing logs for build [32mrickyrajinder-environment-hybri-fp4xr-1[0m stage [32mrelease[0m and container [32mstep-credential-initializer-vrmzq[0m
+{"level":"warn","ts":1586794721.4320123,"logger":"fallback-logger","caller":"logging/config.go:69","msg":"Fetch GitHub commit ID from kodata failed: \"ref: refs/heads/0.8.0-**-support-backwards-incompats\" is not a valid GitHub commit ID"}
+{"level":"info","ts":1586794721.4490316,"logger":"fallback-logger","caller":"creds-init/main.go:40","msg":"Credentials initialized."}
 
-Showing logs for build [32mrickyrajinder-environment-hybri-55jwh-1-zq5nn[0m stage [32mrelease[0m and container [32mstep-working-dir-initializer-tk78k[0m
-{"level":"warn","ts":1586468430.5916584,"logger":"fallback-logger","caller":"logging/config.go:69","msg":"Fetch GitHub commit ID from kodata failed: open /var/run/ko/HEAD: no such file or directory"}
-{"level":"info","ts":1586468430.626485,"logger":"fallback-logger","caller":"bash/main.go:64","msg":"Successfully executed command \"sh -c mkdir -p /workspace/source\"; output "}
+Showing logs for build [32mrickyrajinder-environment-hybri-fp4xr-1[0m stage [32mrelease[0m and container [32mstep-working-dir-initializer-sjblp[0m
+{"level":"warn","ts":1586794722.4660203,"logger":"fallback-logger","caller":"logging/config.go:69","msg":"Fetch GitHub commit ID from kodata failed: open /var/run/ko/HEAD: no such file or directory"}
+{"level":"info","ts":1586794722.4676783,"logger":"fallback-logger","caller":"bash/main.go:64","msg":"Successfully executed command \"sh -c mkdir -p /workspace/source\"; output "}
 
-Showing logs for build [32mrickyrajinder-environment-hybri-55jwh-1-zq5nn[0m stage [32mrelease[0m and container [32mstep-place-tools[0m
+Showing logs for build [32mrickyrajinder-environment-hybri-fp4xr-1[0m stage [32mrelease[0m and container [32mstep-place-tools[0m
 
-Showing logs for build [32mrickyrajinder-environment-hybri-55jwh-1-zq5nn[0m stage [32mrelease[0m and container [32mstep-git-source-rickyrajinder-environment-hybri-55jwh-5b72g[0m
-{"level":"warn","ts":1586468445.134594,"logger":"fallback-logger","caller":"logging/config.go:69","msg":"Fetch GitHub commit ID from kodata failed: \"ref: refs/heads/0.8.0-**-support-backwards-incompats\" is not a valid GitHub commit ID"}
-{"level":"info","ts":1586468446.2083004,"logger":"fallback-logger","caller":"git/git.go:103","msg":"Successfully cloned https://github.com/*************/environment-hybrid-k8s-dev.git @ v1.0.83 in path /workspace/source"}
+Showing logs for build [32mrickyrajinder-environment-hybri-fp4xr-1[0m stage [32mrelease[0m and container [32mstep-git-source-rickyrajinder-environment-hybri-fp4xr-wv5v7[0m
+{"level":"warn","ts":1586794734.545321,"logger":"fallback-logger","caller":"logging/config.go:69","msg":"Fetch GitHub commit ID from kodata failed: \"ref: refs/heads/0.8.0-**-support-backwards-incompats\" is not a valid GitHub commit ID"}
+{"level":"info","ts":1586794735.3525002,"logger":"fallback-logger","caller":"git/git.go:103","msg":"Successfully cloned https://github.com/*************/environment-hybrid-k8s-dev.git @ v1.0.84 in path /workspace/source"}
 
-Showing logs for build [32mrickyrajinder-environment-hybri-55jwh-1-zq5nn[0m stage [32mrelease[0m and container [32mstep-git-merge[0m
-Using SHAs from PULL_REFS=master:f0bf9c3021bcfa3ceff540080578f29c1e66cd72
+Showing logs for build [32mrickyrajinder-environment-hybri-fp4xr-1[0m stage [32mrelease[0m and container [32mstep-git-merge[0m
+Using SHAs from PULL_REFS=master:
 WARNING: no SHAs to merge, falling back to initial cloned commit
 
-Showing logs for build [32mrickyrajinder-environment-hybri-55jwh-1-zq5nn[0m stage [32mrelease[0m and container [32mstep-validate-git[0m
+Showing logs for build [32mrickyrajinder-environment-hybri-fp4xr-1[0m stage [32mrelease[0m and container [32mstep-validate-git[0m
 Git configured for user: jenkins-x-bot and email jenkins-x@googlegroups.com
 
-Showing logs for build [32mrickyrajinder-environment-hybri-55jwh-1-zq5nn[0m stage [32mrelease[0m and container [32mstep-verify-preinstall[0m
+Showing logs for build [32mrickyrajinder-environment-hybri-fp4xr-1[0m stage [32mrelease[0m and container [32mstep-verify-preinstall[0m
 ** boot has only been validated on GKE and EKS, we'd love feedback and contributions for other Kubernetes providers
 Running in Batch Mode, execution will continue
 writing the following to the OWNERS file for the development environment repository:
@@ -55,25 +55,25 @@ verified there is a ConfigMap plugins in namespace **
 Cluster looks good, you are ready to '** boot' now!
 
 
-Showing logs for build [32mrickyrajinder-environment-hybri-55jwh-1-zq5nn[0m stage [32mrelease[0m and container [32mstep-install-jx-crds[0m
+Showing logs for build [32mrickyrajinder-environment-hybri-fp4xr-1[0m stage [32mrelease[0m and container [32mstep-install-jx-crds[0m
 Jenkins X CRDs upgraded with success
 
-Showing logs for build [32mrickyrajinder-environment-hybri-55jwh-1-zq5nn[0m stage [32mrelease[0m and container [32mstep-install-velero[0m
+Showing logs for build [32mrickyrajinder-environment-hybri-fp4xr-1[0m stage [32mrelease[0m and container [32mstep-install-velero[0m
 Modified file /workspace/source/systems/velero/Chart.yaml to set the chart to version 1
 creating the lock configmap **-lock-velero
 lock configmap **-lock-velero created
 Verifying the helm requirements versions in dir: . using version stream URL: https://github.com/jenkins-x/jenkins-x-versions.git and git ref: v1.0.414
 cleaning the lock configmap **-lock-velero
 
-Showing logs for build [32mrickyrajinder-environment-hybri-55jwh-1-zq5nn[0m stage [32mrelease[0m and container [32mstep-install-velero-backups[0m
+Showing logs for build [32mrickyrajinder-environment-hybri-fp4xr-1[0m stage [32mrelease[0m and container [32mstep-install-velero-backups[0m
 Modified file /workspace/source/systems/velero-backups/Chart.yaml to set the chart to version 1
 creating the lock configmap **-lock-velero
 lock configmap **-lock-velero created
 Ignoring templates/default-backup.yaml
-No requirements file: /tmp/**-helm-apply-888075658/velero-backups/requirements.yaml so not checking for missing versions
+No requirements file: /tmp/**-helm-apply-786803795/velero-backups/requirements.yaml so not checking for missing versions
 cleaning the lock configmap **-lock-velero
 
-Showing logs for build [32mrickyrajinder-environment-hybri-55jwh-1-zq5nn[0m stage [32mrelease[0m and container [32mstep-install-nginx-controller[0m
+Showing logs for build [32mrickyrajinder-environment-hybri-fp4xr-1[0m stage [32mrelease[0m and container [32mstep-install-nginx-controller[0m
 Modified file /workspace/source/systems/**ing/Chart.yaml to set the chart to version 1
 creating the lock configmap **-lock-kube-system
 lock configmap **-lock-kube-system created
@@ -81,9 +81,9 @@ Verifying the helm requirements versions in dir: . using version stream URL: htt
 
 cleaning the lock configmap **-lock-kube-system
 
-Showing logs for build [32mrickyrajinder-environment-hybri-55jwh-1-zq5nn[0m stage [32mrelease[0m and container [32mstep-create-install-values[0m
+Showing logs for build [32mrickyrajinder-environment-hybri-fp4xr-1[0m stage [32mrelease[0m and container [32mstep-create-install-values[0m
 
-Showing logs for build [32mrickyrajinder-environment-hybri-55jwh-1-zq5nn[0m stage [32mrelease[0m and container [32mstep-install-external-dns[0m
+Showing logs for build [32mrickyrajinder-environment-hybri-fp4xr-1[0m stage [32mrelease[0m and container [32mstep-install-external-dns[0m
 Modified file /workspace/source/systems/external-dns/Chart.yaml to set the chart to version 1
 creating the lock configmap **-lock-**
 lock configmap **-lock-** created
@@ -92,7 +92,7 @@ Adding missing Helm repo: charts.bitnami.com https://charts.bitnami.com/bitnami
 Successfully added Helm repository charts.bitnami.com.
 cleaning the lock configmap **-lock-**
 
-Showing logs for build [32mrickyrajinder-environment-hybri-55jwh-1-zq5nn[0m stage [32mrelease[0m and container [32mstep-install-cert-manager-crds[0m
+Showing logs for build [32mrickyrajinder-environment-hybri-fp4xr-1[0m stage [32mrelease[0m and container [32mstep-install-cert-manager-crds[0m
 customresourcedefinition.apiextensions.k8s.io/challenges.acme.cert-manager.io configured
 customresourcedefinition.apiextensions.k8s.io/orders.acme.cert-manager.io configured
 customresourcedefinition.apiextensions.k8s.io/certificaterequests.cert-manager.io configured
@@ -100,7 +100,7 @@ customresourcedefinition.apiextensions.k8s.io/certificates.cert-manager.io confi
 customresourcedefinition.apiextensions.k8s.io/clusterissuers.cert-manager.io configured
 customresourcedefinition.apiextensions.k8s.io/issuers.cert-manager.io configured
 
-Showing logs for build [32mrickyrajinder-environment-hybri-55jwh-1-zq5nn[0m stage [32mrelease[0m and container [32mstep-install-cert-manager[0m
+Showing logs for build [32mrickyrajinder-environment-hybri-fp4xr-1[0m stage [32mrelease[0m and container [32mstep-install-cert-manager[0m
 Modified file /workspace/source/systems/cm/Chart.yaml to set the chart to version 1
 creating the lock configmap **-lock-cert-manager
 lock configmap **-lock-cert-manager created
@@ -109,7 +109,7 @@ Adding missing Helm repo: charts.jetstack.io https://charts.jetstack.io
 Successfully added Helm repository charts.jetstack.io.
 cleaning the lock configmap **-lock-cert-manager
 
-Showing logs for build [32mrickyrajinder-environment-hybri-55jwh-1-zq5nn[0m stage [32mrelease[0m and container [32mstep-install-acme-issuer-and-certificate[0m
+Showing logs for build [32mrickyrajinder-environment-hybri-fp4xr-1[0m stage [32mrelease[0m and container [32mstep-install-acme-issuer-and-certificate[0m
 Modified file /workspace/source/systems/acme/Chart.yaml to set the chart to version 1
 creating the lock configmap **-lock-**
 lock configmap **-lock-** created
@@ -117,13 +117,13 @@ Ignoring templates/cert-manager-prod-certificate.yaml
 Ignoring templates/cert-manager-prod-issuer.yaml
 Ignoring templates/cert-manager-staging-certificate.yaml
 Ignoring templates/cert-manager-staging-issuer.yaml
-No requirements file: /tmp/**-helm-apply-549177738/acme/requirements.yaml so not checking for missing versions
+No requirements file: /tmp/**-helm-apply-313710374/acme/requirements.yaml so not checking for missing versions
 cleaning the lock configmap **-lock-**
 
-Showing logs for build [32mrickyrajinder-environment-hybri-55jwh-1-zq5nn[0m stage [32mrelease[0m and container [32mstep-install-vault[0m
+Showing logs for build [32mrickyrajinder-environment-hybri-fp4xr-1[0m stage [32mrelease[0m and container [32mstep-install-vault[0m
 Not attempting to boot Vault as using secret storage: local
 
-Showing logs for build [32mrickyrajinder-environment-hybri-55jwh-1-zq5nn[0m stage [32mrelease[0m and container [32mstep-create-helm-values[0m
+Showing logs for build [32mrickyrajinder-environment-hybri-fp4xr-1[0m stage [32mrelease[0m and container [32mstep-create-helm-values[0m
 defaulting to secret storage scheme local found from requirements file at /workspace/source/**-requirements.yml
 defaulting to secret base path to the cluster name hybrid-k8s found from requirements file at /workspace/source/**-requirements.yml
 generated schema file /workspace/source/env/parameters.schema.json from template /workspace/source/env/parameters.tmpl.schema.json
@@ -139,18 +139,18 @@ Docker Registry username *********** [Automatically accepted existing value]
 Docker Registry password *** [Automatically accepted existing value]
 Docker Registry email *****.singh@sjsu.edu [Automatically accepted existing value]
 
-Showing logs for build [32mrickyrajinder-environment-hybri-55jwh-1-zq5nn[0m stage [32mrelease[0m and container [32mstep-create-jx-auth-config[0m
+Showing logs for build [32mrickyrajinder-environment-hybri-fp4xr-1[0m stage [32mrelease[0m and container [32mstep-create-jx-auth-config[0m
 Saved the rendered configuration into templates/**-auth-configmap.yaml file
 
-Showing logs for build [32mrickyrajinder-environment-hybri-55jwh-1-zq5nn[0m stage [32mrelease[0m and container [32mstep-install-jx-auth-config[0m
+Showing logs for build [32mrickyrajinder-environment-hybri-fp4xr-1[0m stage [32mrelease[0m and container [32mstep-install-jx-auth-config[0m
 Modified file /workspace/source/systems/**-auth/Chart.yaml to set the chart to version 1
 creating the lock configmap **-lock-**
 lock configmap **-lock-** created
 Ignoring templates/**-auth-configmap.yaml
-No requirements file: /tmp/**-helm-apply-452514199/**-auth/requirements.yaml so not checking for missing versions
+No requirements file: /tmp/**-helm-apply-549925053/**-auth/requirements.yaml so not checking for missing versions
 cleaning the lock configmap **-lock-**
 
-Showing logs for build [32mrickyrajinder-environment-hybri-55jwh-1-zq5nn[0m stage [32mrelease[0m and container [32mstep-install-jenkins-x[0m
+Showing logs for build [32mrickyrajinder-environment-hybri-fp4xr-1[0m stage [32mrelease[0m and container [32mstep-install-jenkins-x[0m
 Modified file /workspace/source/env/Chart.yaml to set the chart to version 1
 creating the lock configmap **-lock-**
 lock configmap **-lock-** created
@@ -160,7 +160,7 @@ Verifying the helm requirements versions in dir: . using version stream URL: htt
 Adding missing Helm repo: chartmuseum.jenkins-x.io http://chartmuseum.jenkins-x.io
 Successfully added Helm repository chartmuseum.jenkins-x.io.
 cleaning the lock configmap **-lock-**
-error: upgrading helm chart '.': failed to run 'kubectl apply --recursive -f /tmp/helm-template-workdir-855468434/jenkins-x/output/namespaces/** -l jenkins.io/chart-release=jenkins-x --namespace ** --wait --validate=false' command in directory '/tmp/**-helm-apply-467659738/env', output: 'deployment.extensions/jenkins-x-chartmuseum configured
+error: upgrading helm chart '.': failed to run 'kubectl apply --recursive -f /tmp/helm-template-workdir-519646569/jenkins-x/output/namespaces/** -l jenkins.io/chart-release=jenkins-x --namespace ** --wait --validate=false' command in directory '/tmp/**-helm-apply-838819089/env', output: 'deployment.extensions/jenkins-x-chartmuseum configured
 persistentvolumeclaim/jenkins-x-chartmuseum unchanged
 secret/jenkins-x-chartmuseum unchanged
 service/jenkins-x-chartmuseum unchanged
@@ -215,8 +215,7 @@ persistentvolumeclaim/jenkins-x-nexus unchanged
 secret/nexus unchanged
 service/nexus unchanged
 role.rbac.authorization.k8s.io/committer unchanged
-Warning: kubectl apply should be used on resource created by either kubectl create --save-config or kubectl apply
-secret/jenkins-docker-cfg configured
+secret/jenkins-docker-cfg unchanged
 configmap/jenkins-x-devpod-config unchanged
 configmap/jenkins-x-docker-registry unchanged
 configmap/jenkins-x-extensions unchanged
@@ -257,17 +256,16 @@ configmap/jenkins-x-pod-template-aws-cdk unchanged
 configmap/jenkins-x-pod-template-gradle unchanged
 configmap/jenkins-x-pod-template-nodejs10x unchanged
 configmap/jenkins-x-pod-template-scala unchanged
-role.rbac.authorization.k8s.io/**ui-cleanup created
-rolebinding.rbac.authorization.k8s.io/**ui-cleanup created
-serviceaccount/**ui-cleanup created
-deployment.extensions/jenkins-x-**ui created
-service/jenkins-x-**ui-metrics created
-clusterrolebinding.rbac.authorization.k8s.io/jenkins-x-**ui created
-service/**ui created
-serviceaccount/**ui created
-environmentrolebinding.jenkins.io/single-user created
-serviceaccount/single-user created
-app.jenkins.io/jenkins-x-**-app-ui created
+role.rbac.authorization.k8s.io/**ui-cleanup unchanged
+rolebinding.rbac.authorization.k8s.io/**ui-cleanup unchanged
+serviceaccount/**ui-cleanup unchanged
+deployment.extensions/jenkins-x-**ui configured
+service/jenkins-x-**ui-metrics unchanged
+clusterrolebinding.rbac.authorization.k8s.io/jenkins-x-**ui unchanged
+serviceaccount/**ui unchanged
+environmentrolebinding.jenkins.io/single-user unchanged
+serviceaccount/single-user unchanged
+app.jenkins.io/jenkins-x-**-app-ui unchanged
 namespace/** unchanged
 ingress.extensions/chartmuseum unchanged
 ingress.extensions/hook unchanged
@@ -320,6 +318,19 @@ configmap/config-entrypoint unchanged
 configmap/config-logging unchanged
 configmap/config-observability unchanged
 deployment.apps/tekton-pipelines-controller unchanged
-The Service "hook" is invalid: spec.ports[0].nodePort: Forbidden: may not be used when `type` is 'ClusterIP''
+Error from server (Invalid): error when applying patch:
+{"spec":{"type":"ClusterIP"}}
+to:
+Resource: "/v1, Resource=services", GroupVersionKind: "/v1, Kind=Service"
+Name: "**ui", Namespace: "**"
+Object: &{map["apiVersion":"v1" "kind":"Service" "metadata":map["annotations":map["jenkins.io/chart":"env" "kubectl.kubernetes.io/last-applied-configuration":"{\"apiVersion\":\"v1\",\"kind\":\"Service\",\"metadata\":{\"annotations\":{\"jenkins.io/chart\":\"env\"},\"labels\":{\"app\":\"**ui\",\"chart\":\"**ui-0.0.1110\",\"heritage\":\"Tiller\",\"jenkins.io/chart-release\":\"jenkins-x\",\"jenkins.io/namespace\":\"**\",\"jenkins.io/ui-resource\":\"true\",\"jenkins.io/version\":\"1\",\"release\":\"jenkins-x\"},\"name\":\"**ui\",\"namespace\":\"**\"},\"spec\":{\"ports\":[{\"name\":\"**ui-frontend\",\"port\":80,\"protocol\":\"TCP\",\"targetPort\":80}],\"selector\":{\"app\":\"**ui\",\"release\":\"jenkins-x\"},\"type\":\"ClusterIP\"}}\n"] "creationTimestamp":"2020-04-09T21:59:16Z" "labels":map["app":"**ui" "chart":"**ui-0.0.1110" "heritage":"Tiller" "jenkins.io/chart-release":"jenkins-x" "jenkins.io/namespace":"**" "jenkins.io/ui-resource":"true" "jenkins.io/version":"1" "release":"jenkins-x"] "name":"**ui" "namespace":"**" "resourceVersion":"159916" "selfLink":"/api/v1/namespaces/**/services/**ui" "uid":"7673f998-19c8-461d-a7c5-5a01d10db1ad"] "spec":map["clusterIP":"10.101.110.0" "externalTrafficPolicy":"Cluster" "ports":[map["name":"**ui-frontend" "nodePort":'\u7d14' "port":'P' "protocol":"TCP" "targetPort":'P']] "selector":map["app":"**ui" "release":"jenkins-x"] "sessionAffinity":"None" "type":"NodePort"] "status":map["loadBalancer":map[]]]}
+for: "/tmp/helm-template-workdir-519646569/jenkins-x/output/namespaces/**/env/charts/**-app-ui/charts/**ui/templates/part0-service.yaml": Service "**ui" is invalid: spec.ports[0].nodePort: Forbidden: may not be used when `type` is 'ClusterIP'
+Error from server (Invalid): error when applying patch:
+{"spec":{"type":"ClusterIP"}}
+to:
+Resource: "/v1, Resource=services", GroupVersionKind: "/v1, Kind=Service"
+Name: "hook", Namespace: "**"
+Object: &{map["apiVersion":"v1" "kind":"Service" "metadata":map["annotations":map["jenkins.io/chart":"env" "kubectl.kubernetes.io/last-applied-configuration":"{\"apiVersion\":\"v1\",\"kind\":\"Service\",\"metadata\":{\"annotations\":{\"jenkins.io/chart\":\"env\"},\"labels\":{\"chart\":\"lighthouse-0.0.516\",\"jenkins.io/chart-release\":\"jenkins-x\",\"jenkins.io/namespace\":\"**\",\"jenkins.io/version\":\"1\"},\"name\":\"hook\",\"namespace\":\"**\"},\"spec\":{\"ports\":[{\"name\":\"http\",\"port\":80,\"protocol\":\"TCP\",\"targetPort\":8080}],\"selector\":{\"app\":\"jenkins-x-lighthouse\"},\"type\":\"ClusterIP\"}}\n"] "creationTimestamp":"2020-04-09T21:59:17Z" "labels":map["chart":"lighthouse-0.0.516" "jenkins.io/chart-release":"jenkins-x" "jenkins.io/namespace":"**" "jenkins.io/version":"1"] "name":"hook" "namespace":"**" "resourceVersion":"160043" "selfLink":"/api/v1/namespaces/**/services/hook" "uid":"478061a4-e70d-4a08-b7d8-90da6a2fbec2"] "spec":map["clusterIP":"10.108.199.137" "externalTrafficPolicy":"Cluster" "ports":[map["name":"http" "nodePort":'\u7d12' "port":'P' "protocol":"TCP" "targetPort":'\u1f90']] "selector":map["app":"jenkins-x-lighthouse"] "sessionAffinity":"None" "type":"NodePort"] "status":map["loadBalancer":map[]]]}
+for: "/tmp/helm-template-workdir-519646569/jenkins-x/output/namespaces/**/env/charts/lighthouse/templates/part0-service.yaml": Service "hook" is invalid: spec.ports[0].nodePort: Forbidden: may not be used when `type` is 'ClusterIP''
 [31m
 Pipeline failed on stage 'release' : container 'step-install-jenkins-x'. The execution of the pipeline has stopped.[0m
