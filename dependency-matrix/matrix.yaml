@@ -1,0 +1,7 @@
+dependencies:
+- host: github.com
+  owner: RickyRajinder
+  repo: cpp-demo
+  url: https://github.com/RickyRajinder/cpp-demo.git
+  version: ""
+  versionURL: ""
